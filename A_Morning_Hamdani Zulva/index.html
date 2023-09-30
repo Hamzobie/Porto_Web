@@ -11,20 +11,79 @@
         <h1 class="justHZ">HZ</h1>
         <a href="">Home</a>
         <a href="#aboutMe">About</a>
-        <a href=" ">Contact</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Contact">Contact</a>
     </nav>
-    <div class="content">
+    <section class="content">
         <img src="..\Asset\img\foto saya.png" alt="Muka Hamdan" srcset="" id="muka">
         <div class="det">
             <h3 class="dets">Call Me Hamdani Zulva</h3>
             <p class="dets">I'm a Web Developer who still in learning progress. <br>I do confident with my design skills.</p>
         </div>
         
-    </div>
-    <div class="About">
+    </section>
+    <section class="About">
         <h1 id="aboutMe">About Me</h1>
-        <p class="AboutCon">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, placeat ad molestiae magnam saepe dolorem enim? 
-            Quae officia, blanditiis fugiat illo natus incidunt nesciunt, unde ea, cumque ex minus error.</p>
-    </div>
+        <p class="AboutCon">Saya adalah mahasiswa semester 7 di Universitas Muhammadiyah Malang yang menempuh pendidikan
+            dengan jurusan Teknik Informatika. Saya saat ini sedang mengikuti program Studi Independen di Infinite Learning.
+            Berikut adalah Project yang telah saya kerjakan selama berkuliah.
+        </p>
+        <div class="Project">
+            <div class="row-pro">
+                <h2 id="inside-pro">Deswita Randuagung</h2>
+                <p id="inside-pro">
+                    Derswita Randuangun merupakan website yang kelompok saya buat untuk program pengabdian di desa Randuagung.
+                    Dimana didalam website ini kami menampilkan wisata-wisata yang terdapat di Desa Randuagung.
+                </p>
+            </div>
+            <div class="row-pro">
+                <h2 id="inside-pro">Gemilang Travel</h2>
+                <p id="inside-pro">
+                    Gemilang Travel merupakan project besar dari tugas MPPL dimana kelompok kami membangun website untuk membantu agen travel 
+                    dalam melakukan transaksi.
+                </p>
+            </div>
+        </div>
+    </section>
+    <h1 id="Skills">Skills</h1>
+    <section class="Skill">
+        <div class="card-skill">
+            <h2>Photoshop</h2>
+            <img src="..\Asset\img\PS.jpeg" alt="foto Photoshop">
+        </div>
+        <div class="card-skill">
+            <h2>Flutter</h2>
+            <img src="..\Asset\img\flutter.png" alt="gambar flutter">
+        </div>
+        <div class="card-skill">
+            <h2>Laravel</h2>
+            <img src="..\Asset\img\laravel.png" alt="gambar laravel">
+        </div>
+        <div class="card-skill">
+            <h2>Figma</h2>
+            <img src="..\Asset\img\figma.png" alt="gambar figma">
+        </div>
+    </section>
+    <h1 id="Contact">Contact</h1>
+    <section class="Contact">
+        <p>Let's Get in Touch With Me</p>
+        <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    </section>
 </body>
 </html>
